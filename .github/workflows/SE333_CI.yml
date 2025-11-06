@@ -23,7 +23,7 @@ jobs:
 
       - name: Run Checkstyle
         ##TODO
-        run: mvn validate
+        run: mvn checkstyle:checkstyle
 
 
       - name: Upload Checkstyle Result
