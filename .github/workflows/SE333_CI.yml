@@ -33,7 +33,7 @@ jobs:
         if: always()
         with:
           name: CheckstyleReport
-          path: target/checkstyle.xml
+          path: target/checkstyle-result.xml
 
 
       - name: Run Maven Test
