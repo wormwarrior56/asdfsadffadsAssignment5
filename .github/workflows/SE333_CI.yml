@@ -29,7 +29,7 @@ jobs:
 
       - name: Upload Checkstyle Result
         ##TODO
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: CheckstyleReport
@@ -43,7 +43,7 @@ jobs:
       - name: Jacoco Report
         ##TODO
         if: always()
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@v4
         with:
           name: JacocoReport
           path: target/jacoco
