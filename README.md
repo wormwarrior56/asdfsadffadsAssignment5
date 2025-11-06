@@ -1,9 +1,9 @@
 First link: https://github.com/wormwarrior56/Assignment5Part2Onwards
 Second link: https://github.com/wormwarrior56/asdfsadffadsAssignment5
 
-First link has the first two commits, but the initial git was done in the wrong directory
+First link has part 1 and part 2 commits, but the initial git push was done in the wrong directory
 
-Second link contains correct directory, which enabled GitHub actions to actually work
+Second link contains the part 3 commit from the correct directory, which enabled GitHub actions to actually work
 
 
 
