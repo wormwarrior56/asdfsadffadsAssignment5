@@ -20,6 +20,7 @@ jobs:
 
       - name: Install Linter
         ##TODO
+        uses: docker://rhysd/actionlint:latest
 
       - name: Run Checkstyle
         ##TODO
