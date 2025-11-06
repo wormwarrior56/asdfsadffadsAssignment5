@@ -42,7 +42,7 @@ jobs:
 
       - name: Jacoco Report
         ##TODO
-        runs: mvn clean test jacoco:report
+        run: mvn clean test jacoco:report
         if: always()
         uses: actions/upload-artifact@v4
         with:
